@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Hana B';
+    src: url('HanaB.woff2') format('woff2'),
+        url('HanaB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

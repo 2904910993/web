@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body,div,dl,dd,dt,ul,li,ol,h1,h2,h3,h4,h5,h6,form,input,legend,textarea,select,fieldset,button,p {
+    margin: 0;
+    padding: 0;
+}
+/* 여백 초기화 */
+
+a {
+    text-decoration: none;
+    color: #273743;
+}
+/* 링크 초기화 */
+body,input,textarea,select,button,table {
+    font-family: 'Noto Sans KR', '나눔 고딕', 'Nanum Gothic', 'Malgun Gothic', '맑은 고딕', '돋움', Dotum, sans-serif;
+    font-size: 12px;
+}
+/* 폰트 초기화.
+한글은 따옴표 표기, 영문이고 띄어쓰기가 있는 글씨 역시 따옴표 표기 */
+
+li,ol,ul {
+    list-style: none;
+}
+/* 블릿기호 */
+
+strong {
+    font-weight: normal;
+}
+/* 폰트 굵기 초기화 */
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 12px;
+    font-weight: normal;
+}
+/* 제목스타일 초기화 */
+
+.ir {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* ir효과 (이미지에 텍스트 설정하고 안보이게. 화면에는 구현안되지만 설명에서 볼 수 있게 하는 것
+IR(Image Replacement) 기법은 이미지를 볼 수 없는 사용자에게 적절한 대체 텍스트를 제공하는 것) */
+
+em, address {
+    font-style: normal;
+}
+/* 이태릭체 초기화 */
